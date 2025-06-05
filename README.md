@@ -63,3 +63,11 @@ Run the script from your terminal with the required arguments:
 
 ```bash
 sudo python3 dns_spoof.py --targetip <TARGET_DEVICE_IP> --iface <YOUR_INTERFACE> --routerip <ROUTER_IP>
+```
+
+Expected Output
+You will see real-time DNS queries from the target device, displayed with timestamps and source/destination information:
+
+[06/05/25 10:30:45 | 192.168.1.100 -> [www.example.com](https://www.example.com)]
+[06/05/25 10:30:47 | 192.168.1.100 -> api.thirdparty.net]
+[06/05/25 10:30:50 | 192.168.1.100 -> images.cdn.example.com]
