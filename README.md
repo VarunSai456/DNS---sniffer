@@ -40,8 +40,7 @@ Before running the script, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/DNSpoof-LocalNet.git](https://github.com/YourUsername/DNSpoof-LocalNet.git)
-    cd DNSpoof-LocalNet
+    git clone https://github.com/VarunSai456/DNS---sniffer
     ```
     (Remember to replace `YourUsername` with your actual GitHub username)
 
